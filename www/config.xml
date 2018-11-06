@@ -4,13 +4,13 @@
     <description>111</description>
     <author href="http://phonegap.com" email="elegant4444@gmail.com">MaksimMorozov</author>
 
-    <content src="index.html" />
+<content src="index.html" />
 
-    <preference name="DisallowOverscroll"         value="false" />
+<preference name="DisallowOverscroll"         value="false" />
 <preference name="android-minSdkVersion"      value="15" />
 <preference name="android-targetSdkVersion" value="26" />
-    <preference name="orientation" value="portrait" />
-    <preference name="target-device" value="handset" />
+<preference name="orientation" value="portrait" />
+<preference name="target-device" value="handset" />
 
 <plugin name="cordova-plugin-device" spec="1.1.6" />
 <plugin name="cordova-plugin-device-orientation" spec="1.0.7" />
