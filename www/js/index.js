@@ -47,10 +47,10 @@ var ref = cordova.InAppBrowser.open('http://por.smartekibastuz.kz/fr7/?push='+lo
 });
         
 function didReceiveRemoteNotificationCallBack(jsonData) {
-var ref = cordova.InAppBrowser.open(jsonData.notification.payload.additionalData.ssylka, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+var ref = cordova.InAppBrowser.open('http://por.smartekibastuz.kz/fr7/', '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 }
 function didOpenRemoteNotificationCallBack(jsonData) {
-var ref = cordova.InAppBrowser.open(jsonData.notification.payload.additionalData.ssylka, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+var ref = cordova.InAppBrowser.open('http://por.smartekibastuz.kz/fr7/', '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 }        
         //Настройка ПУШЕЙ ДЛЯ АЙФОНА
         var iosSettings = {};
