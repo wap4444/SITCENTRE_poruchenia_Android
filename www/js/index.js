@@ -59,7 +59,7 @@ var ref = cordova.InAppBrowser.open(jsonData.notification.payload.additionalData
 
         //ПОДКЛЮЧЕНИЕ ПУШЕЙ 
            window.plugins.OneSignal
-          .startInit("52fd2532-f4de-48bd-a818-c918662346cd")
+          .startInit("eb7e9a68-87cc-4f33-bf09-f10cf9a8c350")
           .handleNotificationReceived(didReceiveRemoteNotificationCallBack)
           .handleNotificationOpened(didOpenRemoteNotificationCallBack)
 		  .inFocusDisplaying(window.plugins.OneSignal.OSInFocusDisplayOption.None)
